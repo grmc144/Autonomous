@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:background="@android:color/background_dark"
     tools:context=".MainActivity">
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/bootimage"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/bootscreen_gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:layout_centerVertical="true"
+        android:src="@drawable/bootscreen_gif" />
 
 </android.support.constraint.ConstraintLayout>
